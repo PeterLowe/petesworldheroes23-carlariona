@@ -22,11 +22,9 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-<<<<<<< HEAD
+
 	std::cout << "Pick a letter from A to C or Y to Z" << std::endl; // change this line each iteration
-=======
-	std::cout << "Pick a letter from A to B or Y to Z" << std::endl; // change this line each iteration
->>>>>>> main
+
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
 	{ 
