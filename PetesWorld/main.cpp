@@ -23,7 +23,7 @@ int main()
 		return 0;
 	}
 
-	std::cout << "Pick a letter from A to C or W to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to D or W to Z" << std::endl; // change this line each iteration
 
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
@@ -84,7 +84,7 @@ int main()
 	{
 		if (region == 1)
 		{
-			std::cout << "Canada, Cayman Islands, Chile, Colombia, Costa Rica, Cuba, Dominica, Dominican Republic" << std::endl;
+			std::cout << "Canada, Cayman Islands, Chile, Colombia, Costa Rica, Cuba" << std::endl;
 		}
 		if (region == 2)
 		{
@@ -92,7 +92,7 @@ int main()
 		}
 		if (region == 3)
 		{
-			std::cout << "Cameroon, Cape Verde, Central African Republic, Chad, Comoros, Democratic Republic of the Congo, Congo, Côte D'ivoire" << std::endl;
+			std::cout << "Cameroon, Cape Verde, Central African Republic, Chad, Comoros" << std::endl;
 		}
 		if (region == 4)
 		{
@@ -101,6 +101,29 @@ int main()
 		if (region == 5)
 		{
 			std::cout << "Cocos (Keeling) Islands , Cook Islands" << std::endl;
+		}
+	}
+	if (letter == 'd' || letter == 'D') // written by Carla
+	{
+		if (region == 1)
+		{
+			std::cout << "Dominica, Dominican Republic" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Denmark" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Djibouti" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "There are no Ds in Africa." << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Ds in the rest of the world." << std::endl;
 		}
 	}
 	if (letter == 'w' || letter == 'W') // written by Riona
@@ -124,6 +147,29 @@ int main()
 		if (region == 5)
 		{
 			std::cout << "Wallis and Futuna Islands" << std::endl;
+		}
+	}
+	if (letter == 'd' || letter == 'D') // written by Carla
+	{
+		if (region == 1)
+		{
+			std::cout << "Dominica, Dominican Republic" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Denmark" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Djibouti" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "There are no Ds in Africa." << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Ds in the rest of the world." << std::endl;
 		}
 	}
 	if (letter == 'x' || letter == 'X') // written by Riona
