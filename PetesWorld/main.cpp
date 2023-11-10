@@ -3,7 +3,6 @@
 // author Pete Lowe
 // Carla Epifanio
 // Riona Kelly
-//  or here
 // estimated time 120 minutes
 // actual time ??
 // version 1.0
