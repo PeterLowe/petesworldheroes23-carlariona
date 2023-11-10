@@ -103,7 +103,6 @@ int main()
 			std::cout << "Cocos (Keeling) Islands , Cook Islands" << std::endl;
 		}
 	}
-<<<<<<< HEAD
 	if (letter == 'd' || letter == 'D') // written by Carla
 	{
 		if (region == 1)
@@ -125,7 +124,8 @@ int main()
 		if (region == 5)
 		{
 			std::cout << "There are no Ds in the rest of the world." << std::endl;
-=======
+		}
+	}
 	if (letter == 'x' || letter == 'X') // written by Riona
 	{
 		if (region == 1)
@@ -147,7 +147,6 @@ int main()
 		if (region == 5)
 		{
 			std::cout << "There are no Xs in the rest of the world" << std::endl;
->>>>>>> main
 		}
 	}
 	if (letter == 'y' || letter == 'Y') // written by Riona
